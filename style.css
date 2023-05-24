@@ -22,7 +22,8 @@
     gap:16px;
 }
 .first-content {
-    
+    background-color: #1f2937;
+    color:aliceblue;
     display:flex;
     gap:32px;
     padding: 16px;
@@ -72,13 +73,18 @@ img {
     background-color: #E5E7EB;
 }
 .fourth-content {
+    margin: 64px;
     display: flex;
     padding:32px;
     gap: 32px;
     justify-content: center;
     align-items: center;
+    background-color: #3882F2;
 }
 button {
+    color: aliceblue;
+    outline-color:white;
+    padding: 16px;
     height: 32px;
     display: flex;
     align-items: center;
@@ -90,4 +96,6 @@ footer {
     align-items: center;
     justify-content: center;
     background-color: #1f2937;
+    padding: 16px;
+    color:aliceblue;
 }
